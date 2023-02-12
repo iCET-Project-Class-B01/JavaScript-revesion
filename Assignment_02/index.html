@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
+   <script src="./script.js"></script>
+   <style>
+      .p {
+         margin: 10px;
+      }
+   </style>
 </head>
+
 <body>
-   <h1>Hello World!</h1>
-   <input type="text" placeholder="Please Type...">
+   <div style="margin: 50px; width: 400px; border: 1px solid black; padding: 30px; display: flex;" >
+      <form action="">
+         <label for="nameField">Full Name</label>
+         <input id="nameField" style="display:block;" class="p" type="text" placeholder="Ex : Tom">
+
+         <label for="telephone">Telephone</label>
+         <input id="telephone" style="display:block;" class="p" type="text" placeholder="Ex : 0702053777">
+
+         <label for="address">Address</label>
+         <input id="address"style="display:block;"  type="text" placeholder="Pandura">
+         
+         <button style="margin-top: 10px;" type="button">Save</button>
+
+      </form>
+   </div>
 </body>
+
 </html>
