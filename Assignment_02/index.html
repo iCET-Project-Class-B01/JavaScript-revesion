@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <script src="./script.js"></script>
+   
    <style>
       .p {
          margin: 10px;
@@ -26,10 +26,18 @@
          <label for="address">Address</label>
          <input id="address"style="display:block;"  type="text" placeholder="Pandura">
          
-         <button style="margin-top: 10px;" type="button">Save</button>
+         <button style="margin-top: 10px;" onclick="saveButtonClicked()" type="button">Save</button>
 
       </form>
    </div>
+
+   <div style="margin: 50px;">
+      <h1 id="lbl1">Name is : </h1>
+      <h1 id="lbl2" >Address is : </h1>
+      <h1 id="lbl3">Telephone is : </h1>
+   </div>
+
+   <script src="./script.js"></script>
 </body>
 
 </html>
