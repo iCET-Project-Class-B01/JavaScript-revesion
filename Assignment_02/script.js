@@ -10,4 +10,8 @@ function saveButtonClicked() {
    console.log(telephone.value);
    console.log(address.value);
 
+   nameLabel.innerText+=` ${nameField.value}`;
+   telephoneLabel.innerText+=` ${telephone.value}`;
+   addressLabel.innerText+=` ${address.value}`;
+
 }
